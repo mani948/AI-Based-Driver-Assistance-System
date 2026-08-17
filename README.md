@@ -18,7 +18,7 @@
 
 The abstract of the project is provided as a separate PDF document.
 
-[**View Abstract**](docs/)
+[**View Abstract**](docs/projectADAS.pdf)
 
 ---
 
@@ -459,11 +459,60 @@ This project is developed for **academic and educational purposes**.
 
 ---
 
-## Team
+## 📊 Dataset
 
-**G. Manikanta** — 2420030366
-**Y. Gowtham** — 2420030522
-**M. Mahidhar** — 2420030756
-**M. Arjun Reddy** — 2420030559
+This project uses the **KITTI Dataset** for object detection and road-scene analysis.
 
-**Supervisor:** RajKumar Patil
+The dataset contains road images and annotations that can be used for detecting objects such as vehicles, pedestrians, and other road elements.
+
+### 🔗 Dataset Source
+
+**KITTI Dataset on Kaggle:**
+
+https://www.kaggle.com/datasets/klemenko/kitti-dataset/data
+
+### 📥 Download Dataset
+
+Click the link below to download the dataset:
+
+👉 [Download KITTI Dataset from Kaggle](https://www.kaggle.com/datasets/klemenko/kitti-dataset/data)
+
+### 📁 Dataset Usage
+
+The downloaded dataset should be placed in the project directory as follows:
+
+```text
+AI-Based-Driver-Assistance-System/
+│
+├── dataset/
+│   └── KITTI/
+│       ├── images/
+│       └── labels/
+│
+├── src/
+├── models/
+├── docs/
+├── requirements.txt
+└── README.md
+```
+
+### 🎯 Dataset Used For
+
+The KITTI dataset is used in this project for:
+
+* 🚗 Vehicle detection
+* 🚶 Pedestrian detection
+* 🚧 Obstacle detection
+* 📏 Distance estimation research
+* ⚠️ Collision-risk analysis
+* 🛣️ Road-scene understanding
+
+### ⚠️ Note
+
+The complete dataset is **not stored directly in this GitHub repository** because of its large size.
+
+Users should download the dataset separately from Kaggle and place it inside the `dataset/KITTI/` directory.
+
+**Dataset Source:** Kaggle — KITTI Dataset
+**Link:** https://www.kaggle.com/datasets/klemenko/kitti-dataset/data
+
