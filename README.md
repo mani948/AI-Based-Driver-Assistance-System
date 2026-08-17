@@ -19,6 +19,7 @@
 The abstract of the project is provided as a separate PDF document.
 
 [**View Abstract**](docs/projectADAS.pdf)
+[**View Research Paper**](docs/Research_Paper.pdf)
 
 ---
 
